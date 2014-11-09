@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditText">
+        <attr name="iconLeft" format="reference" />
+        <attr name="iconRight" format="reference" />
+        <attr name="iconLeftClickAction" format="string" />
+        <attr name="iconRightClickAction" format="string" />
+    </declare-styleable>
+</resources>
