@@ -1,4 +1,4 @@
-#Kutt iControls
+#Kutti Controls
 
 Kutti Controls is a simple android library that provides with a range of ready to use libraries suited for various functionalities.
 
@@ -19,7 +19,7 @@ Currently this supports
  Add `xmlns:custom="http://schemas.android.com/apk/res-auto"`to your root layout . Then use the code snippet available below to get the respective functionality.
 
  - Edit Text with Left Icon
-   <img src="http://i.imgur.com/BYn9Jha.png" width=500 height=100 />
+   <br/><img src="http://i.imgur.com/BYn9Jha.png" width=500 height=100 /><br/>
  ```xml
      <com.marudhu.kutticontrols.EditText
         android:layout_width="match_parent"
@@ -46,23 +46,23 @@ If you need the icons to respond to click, you need to set the listeners. Listen
      ```
 
  - Edit Text with Right Icon
-   <img src="http://i.imgur.com/LJzbsND.png" width=500 height=100 />
+ <br/><img src="http://i.imgur.com/LJzbsND.png" width=500 height=100 /><br/>
      ```xml
-     <com.marudhu.kutticontrols.EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter something to search"
-        custom:iconRight="@android:drawable/ic_menu_search/>
+  <com.marudhu.kutticontrols.EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Enter something to search"
+     custom:iconRight="@android:drawable/ic_menu_search/>
 ```
 If you need the icons to respond to click, you need to set the listeners. Listeners can be set in two different ways
 - Via XML code
  ```xml
-       <com.marudhu.kutticontrols.EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter your Phone Number"
-        custom:iconRight="@android:drawable/ic_menu_search
-        custom:iconRightClickAction="lftClickHandler"/>
+    <com.marudhu.kutticontrols.EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Enter your Phone Number"
+     custom:iconRight="@android:drawable/ic_menu_search
+     custom:iconRightClickAction="lftClickHandler"/>
 ```
 
         The in your java code add the function to handle the click.
@@ -73,15 +73,15 @@ If you need the icons to respond to click, you need to set the listeners. Listen
         }
 ```
 - Edit Text with both Left & Right Icon
-   <img src="http://i.imgur.com/dlHIS6x.png" width=500 height=100 />
+   <br/><img src="http://i.imgur.com/dlHIS6x.png" width=500 height=100 /><br/>
 
      ```xml
-     <com.marudhu.kutticontrols.EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter something to search"
-        custom:iconRight="@android:drawable/ic_menu_search"
-        custom:iconLeft="@android:drawable/ic_menu_help" />
+  <com.marudhu.kutticontrols.EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Enter something to search"
+     custom:iconRight="@android:drawable/ic_menu_search"
+     custom:iconLeft="@android:drawable/ic_menu_help" />
     ```
 If you need the icons to respond to click, you need to set the listeners. Listeners can be set in two different ways
 - Via XML code
