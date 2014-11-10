@@ -3,7 +3,7 @@
 Kutti Controls is a simple android library that provides with a range of ready to use libraries suited for various functionalities.
 
 Currently this supports
-   - EditText which has icon over the **left** or **right** ro **both**
+   - EditText which has icon over the **left** or **right** ro **both*.
 
 ### Version
 1.0.0
@@ -12,14 +12,14 @@ Currently this supports
 
  - Obtaining the code
      - Download the library source code and add it to your project.
-     - Or Download the **aar library from here  **http:/github.com
+     - Or Download the library from <a href="https://github.com/marudhupandiyang/KuttiControls/blob/master/kutticontrols/build/outputs/KuttiControls.jar"> here </a>
 
 ###Examples
 
  Add `xmlns:custom="http://schemas.android.com/apk/res-auto"`to your root layout . Then use the code snippet available below to get the respective functionality.
 
  - Edit Text with Left Icon
-   <br/><img src="http://i.imgur.com/BYn9Jha.png" width=500 height=100 /><br/>
+   <br/><img src="http://i.imgur.com/BYn9Jha.png?1" width=500 height=100 /><br/>
  ```xml
      <com.marudhu.kutticontrols.EditText
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
      ```
 
  - Edit Text with Right Icon
- <br/><img src="http://i.imgur.com/LJzbsND.png" width=500 height=100 /><br/>
+ <br/><img src="http://i.imgur.com/LJzbsND.png?1" width=500 height=100 /><br/>
      ```xml
   <com.marudhu.kutticontrols.EditText
      android:layout_width="match_parent"
@@ -73,7 +73,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
         }
 ```
 - Edit Text with both Left & Right Icon
-   <br/><img src="http://i.imgur.com/dlHIS6x.png" width=500 height=100 /><br/>
+   <br/><img src="http://i.imgur.com/dlHIS6x.png?1" width=500 height=100 /><br/>
 
      ```xml
   <com.marudhu.kutticontrols.EditText
@@ -152,3 +152,4 @@ License
 GNU
 
 **Free Software, Hell Yeah!**
+
