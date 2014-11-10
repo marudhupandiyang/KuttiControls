@@ -1,4 +1,4 @@
-package com.marudhu.kutticontrols_sample;
+package in.cozmoz.kutticontrols_sample;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.marudhu.kutticontrols.EditText;
+import com.marudhu.kutticontrols_sample.R;
+
+import in.cozmoz.kutticontrols.EditText;
 
 
 public class MainActivity extends ActionBarActivity {

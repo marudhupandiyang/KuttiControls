@@ -15,6 +15,7 @@ android {
         release {
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
         }
     }
 }
@@ -23,3 +24,15 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.0'
 }
+
+task clearJar(type: Delete) {
+    delete 'build/outputs/ProjectName.jar'
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('build/outputs/')
+    include('classes.jar')
+    rename ('classes.jar', 'KuttiControls.jar')
+}
+makeJar.dependsOn(clearJar, build)

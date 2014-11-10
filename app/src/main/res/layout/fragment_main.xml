@@ -11,7 +11,7 @@
     tools:context=".MainActivity$PlaceholderFragment"
     android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
 
-    <com.marudhu.kutticontrols.EditText
+    <in.cozmoz.kutticontrols.EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your Phone Number"
@@ -19,7 +19,7 @@
         custom:iconLeftClickAction="leftClickHandler"/>
 
 
-    <com.marudhu.kutticontrols.EditText
+    <in.cozmoz.kutticontrols.EditText
         android:id="@+id/myEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
