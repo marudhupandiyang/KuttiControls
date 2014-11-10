@@ -21,7 +21,7 @@ Currently this supports
  - Edit Text with Left Icon
    <br/><img src="http://i.imgur.com/BYn9Jha.png?1" width=500 height=100 /><br/>
  ```xml
-     <com.marudhu.kutticontrols.EditText
+     <in.cozmoz.kutticontrols.EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your Phone Number"
@@ -30,7 +30,7 @@ Currently this supports
 If you need the icons to respond to click, you need to set the listeners. Listeners can be set in two different ways
 - Via XML code
  ```xml
-       <com.marudhu.kutticontrols.EditText
+       <in.cozmoz.kutticontrols.EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your Phone Number"
@@ -48,7 +48,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
  - Edit Text with Right Icon
  <br/><img src="http://i.imgur.com/LJzbsND.png?1" width=500 height=100 /><br/>
      ```xml
-  <com.marudhu.kutticontrols.EditText
+  <in.cozmoz.kutticontrols.EditText
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:hint="Enter something to search"
@@ -57,7 +57,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
 If you need the icons to respond to click, you need to set the listeners. Listeners can be set in two different ways
 - Via XML code
  ```xml
-    <com.marudhu.kutticontrols.EditText
+    <in.cozmoz.kutticontrols.EditText
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:hint="Enter your Phone Number"
@@ -76,7 +76,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
    <br/><img src="http://i.imgur.com/dlHIS6x.png?1" width=500 height=100 /><br/>
 
      ```xml
-  <com.marudhu.kutticontrols.EditText
+  <in.cozmoz.kutticontrols.EditText
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
      android:hint="Enter something to search"
@@ -86,7 +86,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
 If you need the icons to respond to click, you need to set the listeners. Listeners can be set in two different ways
 - Via XML code
  ```xml
-    <com.marudhu.kutticontrols.EditText
+    <in.cozmoz.kutticontrols.EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Search Text Here"
@@ -107,7 +107,7 @@ If you need the icons to respond to click, you need to set the listeners. Listen
 Set an ID to the control in the XML file.
 
     ```xml
-<com.marudhu.kutticontrols.EditText
+<in.cozmoz.kutticontrols.EditText
     android:id="@+id/myEditText" />
     ```
 
